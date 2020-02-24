@@ -17,10 +17,7 @@ services:
   heading: BioTech
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: Engineering and Health Sciences
-textline: | 
-  Sam Christopher Building
-  
-  Ora et Labora
+textline: Sam Christopher Building
 hero_button:
   text: Learn more
   href: "/about"
