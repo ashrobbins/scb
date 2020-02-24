@@ -2,7 +2,7 @@
 title: Home
 banner_image: "/img/banner.png"
 layout: landing-page
-heading: Belkirk College
+heading: Sam Christopher Building
 partners:
 - "/uploads/2017/11/13/stem.png"
 - "/uploads/2017/11/13/UPenn_logo.png"
@@ -18,7 +18,7 @@ services:
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: Engineering and Health Sciences
 textline: | 
-  Belkirk College of Engineering
+  Sam Christopher Building
   
   Ora et Labora
 hero_button:
