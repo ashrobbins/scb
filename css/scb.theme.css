@@ -1,0 +1,16 @@
+.button-success {
+    background: #c71f01;
+}
+
+.navigation > li > a:hover,
+.navigation li.current > a {
+    color: #c71f01;
+}
+
+.logo a {
+    background-size: auto 100%;
+}
+
+#banner .call-to-action {
+    max-width: 50rem;
+}
