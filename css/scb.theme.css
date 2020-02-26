@@ -1,3 +1,22 @@
+body {
+    font-family: "Source Sans Pro", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.25rem;
+    letter-spacing: -.4px;
+    text-transform: uppercase;
+}
+
 .button-success {
     background: #c71f01;
 }
@@ -8,7 +27,19 @@
 }
 
 .logo a {
+    width: auto;
+    padding-left: 5.6rem;
+    text-decoration: none;
+    text-indent: 0;
+    color: black;
     background-size: auto 100%;
+
+
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 3rem;
+    text-transform: uppercase;
 }
 
 #banner .call-to-action {
