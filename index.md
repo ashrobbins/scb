@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/img/banner.png"
+banner_image: "/uploads/2020/03/02/image-6.jpg"
 layout: landing-page
 heading: Sam Christopher Building
 partners:
@@ -19,9 +19,10 @@ services:
 sub_heading: Engineering and Health Sciences
 textline: Sam Christopher Building
 hero_button:
-  text: Learn more
-  href: "/about"
+  text: Get in touch
+  href: "/contact"
 show_news: true
+show_staff: false
 menu:
   navigation:
     identifier: _index
