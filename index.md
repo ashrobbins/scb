@@ -18,7 +18,7 @@ services:
   heading: Service
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: A sub heading
-textline: Sam Christopher Building
+textline: ''
 hero_button:
   text: Get in touch
   href: "/contact"
