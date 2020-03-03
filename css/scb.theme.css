@@ -21,9 +21,29 @@ h6 {
     background: #c71f01;
 }
 
+.site-header {
+    padding-top: 0;
+}
+
+.site-header > .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.navigation > li > a {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .navigation > li > a:hover,
 .navigation li.current > a {
     color: #c71f01;
+}
+
+.navigation li.current > a {
+    border-color: #c71f01;
+    border-width: 3px;
 }
 
 .logo a {
@@ -44,4 +64,17 @@ h6 {
 
 #banner .call-to-action {
     max-width: 50rem;
+}
+
+#banner .pure-u-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    height: 100%;
+}
+
+.header__contact {
+    padding: 1rem 0;
+    background-color: #c71f01;
 }
