@@ -10,7 +10,7 @@ partners:
 services:
 - heading: Service
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-  icon: ''
+  icon: "/uploads/2017/11/13/biotech.png"
 - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
   heading: Service
   icon: "/uploads/2017/11/13/health.png"
