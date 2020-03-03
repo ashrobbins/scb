@@ -78,3 +78,16 @@ h6 {
     padding: 1rem 0;
     background-color: #c71f01;
 }
+
+.featured-work {
+    padding: 3rem 0;
+    background: #f4f4f4;
+}
+
+.featured-work h2 {
+    text-align: center;
+}
+
+.featured-work img {
+    width: 100%;
+}

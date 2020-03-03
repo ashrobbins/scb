@@ -1,0 +1,30 @@
+{% comment %}
+    Displays a grid of featured work
+{% endcomment %}
+
+<section class="featured-work">
+    <div class="container">
+        <h2>Featured Work</h2>
+        <div class="container pure-g">
+            {% for project in site.projects %}
+                {% if forloop.index <= 3 %}
+                    <div class="pure-u-1 pure-u-md-1-3">
+                        <div class="card">
+                            <div class="card-header">
+                            {% if project.banner_image and project.banner_image != "" %}
+                            <img src="{{ project.banner_image | absolute_url }}" alt="{{ project.title }}">
+                            {% else %}
+                                <img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ project.title }}">
+                            {% endif %}
+                            </div>
+                            <div class="card-body">
+                                <h3><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></h3>
+                                <p>{{ project.sub_heading | slice: 0, 80 }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
