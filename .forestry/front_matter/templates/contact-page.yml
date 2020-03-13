@@ -47,4 +47,5 @@ fields:
   hidden: true
   default: home
 pages:
+- contact.md
 - index.md
