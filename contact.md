@@ -5,7 +5,7 @@ banner_image: ''
 heading: Contact Us
 layout: landing-page
 publish_date: '2017-12-01T04:00:00.000+00:00'
-show_staff: true
+show_staff: false
 sub_heading: Lorem ipsum
 hero_button:
   text: ''
