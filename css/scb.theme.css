@@ -17,8 +17,42 @@ h6 {
     text-transform: uppercase;
 }
 
+a {
+    color: #c71f01;
+}
+
 .button-success {
     background: #c71f01;
+}
+
+#banner {
+    background-position: center;
+}
+
+#banner .call-to-action {
+    position: relative;
+    padding-left: 30px;
+    background-color: rgba(0,0,0,.7);
+}
+
+#banner .call-to-action::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -500px;
+    width: 500px;
+    background-color: rgba(0,0,0,.7);
+}
+
+#banner .call-to-action h2 {
+    display: block;
+}
+
+#banner .call-to-action a {
+    margin-bottom: 27px;
+    padding: 16px 30px;
+    font-size: 16px;
 }
 
 .site-header {
@@ -79,7 +113,18 @@ h6 {
     background-color: #c71f01;
 }
 
+/* Services */
+.pure-u-1 .service {
+    margin: 0 20px;
+}
+
+.pure-u-1 .service p {
+    font-size: 14px;
+}
+
+/* Featured Projects */
 .featured-work {
+    margin-bottom: -60px;
     padding: 3rem 0;
     background: #f4f4f4;
 }
@@ -90,4 +135,17 @@ h6 {
 
 .featured-work img {
     width: 100%;
+}
+
+.grid-layout .card .card-header {
+    display: flex;
+    max-height: 180px;
+}
+
+.grid-layout .card .card-header img {
+    object-fit: cover;
+}
+
+.grid-layout .card .card-body h3 a {
+    color: #c71f01;
 }
