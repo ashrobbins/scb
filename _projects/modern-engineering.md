@@ -1,23 +1,29 @@
 ---
-title: Modern Engineering Textbook
-date: 2016-04-20 00:00:00 +0000
+title: Building Project 3
+date: '2016-04-20T00:00:00.000+00:00'
 categories: []
 description: 'Computer-Based Training for Cogntive Behavioural Therapy: An Addictions
   Program for Canada'
-banner_image: "/uploads/2018/02/17/bridge3.jpg"
-sub_heading: A post-modern taking on Engineering in the Digital World
+banner_image: "/uploads/2020/03/13/88420556_485866428749984_2135580416722075648_o.jpg"
+sub_heading: Itaque earum rerum hic tenetur a sapiente
 tags:
 - engineering
-- research
+- foundations
 slug: ''
+
 ---
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
 
-## Overview
+Qui officia deserunt mollit anim id est laborum. Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Qui officia deserunt mollit anim id est laborum. Et harum quidem rerum facilis est et expedita distinctio.
 
-Resident Professors Murphy Tiernan and Kelly Brewer have collaborated over the last 3 years with leading professionals in the continental US to develop a modern curriculum for Engineering students.
+1. Qui officia deserunt mollit anim id est laborum.
+2. Architecto beatae vitae dicta sunt explicabo.
+3. Et harum quidem rerum facilis est et expedita distinctio.
 
-## Editions
+### Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.
 
-* Edition One - 2016
+Corrupti quos dolores et quas molestias excepturi sint occaecati. Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.
 
-* Edition Two - 2017
+* Itaque earum rerum hic tenetur a sapiente delectus.
+* Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+* Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
