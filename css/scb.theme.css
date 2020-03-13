@@ -27,6 +27,7 @@ a {
 
 #banner {
     background-position: center;
+    overflow-x: hidden;
 }
 
 #banner .call-to-action {
@@ -173,4 +174,83 @@ a {
 
 .contact-form button {
     margin-left: 150px;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin: 0 1rem;
+    }
+
+    .header__contact {
+        padding: .5rem 0;
+    }
+
+    .site-header > .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo a {
+        padding-left: 3rem;
+        font-size: 14px;
+        background-position: center left;
+        background-size: 13%;
+    }
+
+    #banner {
+        height: 260px;
+    }
+
+    #banner .call-to-action h1 {
+        font-size: 20px;
+    }
+
+    #banner .call-to-action h2 {
+        font-size: 15px;
+    }
+
+    #banner .call-to-action a {
+        padding: 8px 20px;
+    }
+
+    .plain-header {
+        padding: 20px;
+    }
+
+    .plain-header h2 {
+        font-size: 20px;
+    }
+
+    .grid-layout .card {
+        margin: 0 0 2em;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 20px;
+    }
+
+    .content {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .main-nav li {
+        margin-left: 16px;
+        font-size: 14px;
+    }
 }
