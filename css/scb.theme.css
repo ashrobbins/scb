@@ -149,3 +149,28 @@ a {
 .grid-layout .card .card-body h3 a {
     color: #c71f01;
 }
+
+/* Contact Form */
+.contact-form label {
+    display: flex;
+    align-items: center;
+}
+
+.contact-form label span {
+    width: 150px;
+}
+
+.contact-form label input[type=text],
+.contact-form label input[type=email],
+.contact-form label input[type=tel],
+.contact-form label textarea {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 7px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.contact-form button {
+    margin-left: 150px;
+}
