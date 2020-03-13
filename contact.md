@@ -20,5 +20,3 @@ Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus.
 ## Get in touch
 
 {% include address.html %}
-
-{% include contact-form.html %}
