@@ -73,7 +73,7 @@ fields:
   label: Layout
   type: text
   hidden: true
-  default: home
+  default: landing-page
 pages:
 - contact.md
 - thank-you.md

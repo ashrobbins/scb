@@ -1,7 +1,7 @@
 ---
 heading: Thank you
 sub_heading: ''
-layout: home
+layout: landing-page
 title: Thank you
 banner_image: ''
 hero_button:
