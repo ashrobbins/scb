@@ -23,6 +23,4 @@ menu:
 ---
 ## Get in touch
 
-{% include address.html %}
-
 {% include contact-form.html %}
