@@ -17,6 +17,8 @@ Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo 
 
 Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus.
 
-## Contact Information
+## Get in touch
 
 {% include address.html %}
+
+{% include contact-form.html %}
