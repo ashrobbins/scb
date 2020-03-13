@@ -76,3 +76,4 @@ fields:
   default: home
 pages:
 - contact.md
+- thank-you.md
