@@ -1,0 +1,50 @@
+---
+label: contact-page
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  config:
+    required: true
+- type: text
+  label: Hero Heading
+  name: heading
+  default: Contact Us
+- type: text
+  name: sub_heading
+  label: Hero Sub heading
+  default: Lorem ipsum
+- type: file
+  name: banner_image
+  label: Hero Image
+  description: 'Dimensions: 1200px by 580px'
+  config:
+    maxSize: '2'
+- type: field_group
+  name: hero_button
+  label: Hero Button
+  fields:
+  - type: text
+    name: text
+    label: Text
+  - type: text
+    name: href
+    label: Link
+- type: textarea
+  name: textline
+  label: Description
+  config:
+    wysiwyg: true
+    required: false
+    schema:
+      format: markdown
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: home
+pages:
+- index.md
