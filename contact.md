@@ -21,6 +21,4 @@ menu:
     weight: 4
 
 ---
-## Get in touch
-
 {% include contact-form.html %}
