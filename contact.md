@@ -19,10 +19,6 @@ menu:
     weight: 4
 
 ---
-Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-
-Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus.
-
-## Get in touch
-
 {% include address.html %}
+
+{% include contact-form.html %}
