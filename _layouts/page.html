@@ -10,9 +10,8 @@ layout: default
 <div class="container pure-g">
     <div class="pure-u-1">
         <section class="gallery">
-            {% if item.data.gallery %}
-                <p>{{ item.data.gallery }}</p>
-                {% for item in item.data.gallery %}
+            {% if page.gallery %}
+                {% for item in page.gallery %}
                     <img src="{{ item }}" />
                 {% endfor %}
             {% endif %}

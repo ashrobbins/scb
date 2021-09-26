@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -113,6 +114,86 @@ a {
     justify-content: flex-end;
     text-align: right;
     height: 100%;
+}
+
+/* Project Hero */
+.hero {
+    height: 28rem;
+    margin-bottom: 5rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .container {
+    white-space: nowrap;
+    text-align: left;
+    height: 100%;
+    padding: 0;
+}
+
+.hero .pure-u-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    height: 100%;
+}
+
+.hero .call-to-action {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 50rem;
+    padding-left: 30px;
+    white-space: normal;
+    background-color: rgba(0,0,0,.7);
+}
+
+.hero .call-to-action::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -500px;
+    width: 500px;
+    background-color: rgba(0,0,0,.7);
+}
+
+.hero .call-to-action h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+    text-shadow: 1px 1px 5px rgb(0 0 0 / 40%);
+}
+
+/* Project page */
+.container--project .content {
+    display: column;
+    columns: 2;
+    margin-bottom: 5rem;
+}
+
+.container--project .content p:first-child {
+    margin-top: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30rem;
+    grid-auto-rows: 30rem;
+    grid-gap: 2rem;
+}
+
+.gallery__item {
+    display: flex;
+}
+
+.gallery__item img {
+    object-fit: cover;
+    min-width: 100%;
 }
 
 .header__contact {
