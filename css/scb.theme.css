@@ -1,7 +1,11 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "Source Sans Pro", Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 
 h1,
@@ -10,11 +14,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: 900;
+    font-family: "Oswald", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 700;
     font-size: 1.25rem;
     letter-spacing: -.4px;
-    text-transform: uppercase;
 }
 
 a {
@@ -57,7 +60,10 @@ a {
 }
 
 .site-header {
+    position: relative;
+    z-index: 10;
     padding-top: 0;
+    box-shadow: 0 3px 10px #333;
 }
 
 .site-header > .container {
@@ -90,7 +96,7 @@ a {
     background-size: auto 100%;
 
 
-    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Oswald", Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 900;
     font-size: 1.25rem;
     line-height: 3rem;
@@ -110,7 +116,7 @@ a {
 }
 
 .header__contact {
-    padding: 1rem 0;
+    padding: .4rem 0;
     background-color: #c71f01;
 }
 
@@ -138,6 +144,10 @@ a {
     width: 100%;
 }
 
+.grid-layout .card {
+    border-radius: 0;
+}
+
 .grid-layout .card .card-header {
     display: flex;
     max-height: 180px;
@@ -147,8 +157,16 @@ a {
     object-fit: cover;
 }
 
+.grid-layout .card .card-body h3 {
+    font-size: 1.8rem;
+}
+
 .grid-layout .card .card-body h3 a {
     color: #c71f01;
+}
+
+.grid-layout .card .card-body p {
+    line-height: 2.2rem;
 }
 
 /* Contact Form */
@@ -183,7 +201,7 @@ a {
     }
 
     .header__contact {
-        padding: .5rem 0;
+        padding: .2rem 0;
     }
 
     .site-header > .container {

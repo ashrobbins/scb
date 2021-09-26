@@ -9,7 +9,16 @@ layout: default
 
 <div class="container pure-g">
     <div class="pure-u-1">
-        <div class="content content-narrow">
+        <section class="gallery">
+            {% if item.data.gallery %}
+                <p>{{ item.data.gallery }}</p>
+                {% for item in item.data.gallery %}
+                    <img src="{{ item }}" />
+                {% endfor %}
+            {% endif %}
+        </section>
+
+        <div class="content content-narrow eee">
             {{ content }}
         </div>
     </div>
