@@ -16,6 +16,10 @@ fields:
   description: Dimensions work best at 1200 pixels by 400 pixels
   hidden: false
   default: ''
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
 - name: tags
   label: Tags
   type: tag_list
